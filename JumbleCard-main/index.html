@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" media="screen and (max-width: 480px)" href="./phone.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Passion+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet">
+
+    <title>jumbleCard</title>
+</head>
+<body>
+    <section id="navBar">
+        <h1 class="heading">Jumble Card</h1>
+    </section>
+    <section id="screenGrid">
+        <section id="setting">
+            <button id="start" class="btn-main">Start</button>
+            <button id="restart" class="btn-main unvisible" disabled="true">Restart</button>
+            <div id="time">
+                <div class="timeBody">
+                    <h3 id="min">00:</h3>
+                    <h3 id="sec">00</h3>
+                </div>
+            </div>
+        </section>
+
+        <section id="gameBody" class="index">
+            <div id="container"></div>
+        </section>
+    </section>
+    <div id="pop" class="popup">
+        <h1>YOU WIN!</h1>
+        <img src="./img/celebration.png">
+        <h3 id="best">Your Best </h3>
+        <h4 id="solvedTime">Time Taken </h4>
+        <button class="btn-main playAgainBtn" id="playAgain">play again</button>
+    </div>
+</body>
+<script src="brain.js"></script>
+</html>

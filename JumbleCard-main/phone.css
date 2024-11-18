@@ -1,0 +1,68 @@
+
+#setting{
+    margin: 6px auto 0px;
+}
+#screenGrid{
+    display: flex;
+    flex-direction: column;
+}
+#container {
+    width: 93%;
+    margin: 0px auto;
+}
+.card{
+    width: 108px;
+    height: 151px;
+    margin: 5px;
+}
+.card__face--front h2 {
+    font-size: 16px;
+}
+.mango {
+    position: relative;
+    width: 100px;
+    top: 28px;
+    right: 0px;
+}
+.grapes {
+    width: 81px;
+    position: relative;
+    top: 15px;
+    left: 8px;
+}
+.apple {
+    width: 164px;
+    position: relative;
+    right: 31px;
+    bottom: 10px;
+}
+.banana {
+    width: 135px;
+    position: relative;
+    top: 32px;
+    right: 12px;
+}
+.orange {
+    width: 90px;
+    position: relative;
+    top: 37px;
+    left: 5px;
+}
+.strawberry {
+    width: 90px;
+    position: relative;
+    top: 21px;
+    left: 0px;
+}
+
+.heading {
+    font-size: 30px;
+    width: 165px;
+    padding: 5px;
+}
+
+.popup {
+    width: 380px;
+    top: 129px;
+    right: 8px;
+}
